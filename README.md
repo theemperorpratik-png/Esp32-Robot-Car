@@ -1,30 +1,22 @@
-# Krawfox_ROBO :  ESP32 Bluetooth Controlled ROBO CAR
-
-    Krawfox_ROBO is an ESP32-based Bluetooth-controlled differential drive robot. It communicates with any Bluetooth Serial Terminal or Android Bluetooth RC Controller app using the ESP32's built-in Classic Bluetooth module.
-
-# The ROBO Supports
-
-    - Forward and Backward Movement
-    - Left and Right Turning
-    - Stop Command
-    - Speed control
-
-# Features
-
-    - ESP32 Bluetooth communication
-    - L298N/L293D compatible motor driver
-    - PWM motor speed control
-
-# Hardware Required
-
-    - ESP32 Devkit V1
-    - L298N (or L293D) Motor Driver
-    - TT MOTORS
-    - A CHASSIS
-    - BATTERY HOLDER
-    - BATTERY
-    - JUMPER WIRES AND BUNCH OF WIRES
-
+# Esp32 Robot Car
+This is an simple robotic car made with the help if esp32 and motor driver.
+# features
+- forward
+- backward
+- left
+- right
+- Stop
+# Components
+- ESP32 devkit v1
+- L298N (or L293D) Motor Driver
+- 4 DC motors
+- Robot chassis
+- 4 wheels
+- Battery
+- Power switch
+- Jumper wires
+# How It Works
+The code is pushed to esp32(Which controls the motor driver) with suitable ide and then it is controlled with "Rc bluetooth controller" app from phone.
 # Pin Configuration
 
 | ESP32 Pin | Function              |
@@ -36,12 +28,14 @@
 | GPIO27    | IN3                   |
 | GPIO26    | IN4                   |
 
-# note : ON BLUETOOTH CONNECTION IT SHOWS KRAWFOX_ROBO YOU CAN CHANGE IT VIA THE CODE
-
 # LIBRARIES USED
 
     - Arduino Framework
     - BluetoothSerial (ESP32)
 
+
 # Schematic
 <img width="2339" height="1654" alt="Schematic_Robo-Car_2026-07-07" src="https://github.com/user-attachments/assets/d7a407af-25d3-46d2-8453-011839166287" />
+
+# Credits
+Code and schemstic from "Krawfox(Arjun Khanal)"
