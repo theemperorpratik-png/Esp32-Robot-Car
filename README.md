@@ -38,4 +38,4 @@ The code is pushed to esp32(Which controls the motor driver) with suitable ide a
 <img width="2339" height="1654" alt="Schematic_Robo-Car_2026-07-07" src="https://github.com/user-attachments/assets/d7a407af-25d3-46d2-8453-011839166287" />
 
 # Credits
-Code and schemstic from "Krawfox(Arjun Khanal)"
+Code and schematic from "Krawfox(Arjun Khanal)"
