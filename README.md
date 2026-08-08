@@ -15,6 +15,22 @@ This is an simple robotic car made with the help if esp32 and motor driver.
 - Battery
 - Power switch
 - Jumper wires
+## Bill of Materials
+
+| S.no | Component | Quantity | Purchase |
+|---|---|---:|---|
+|1 | ESP32| 1 | [link](https://www.daraz.com.np/products/esp32-development-board-i511363277-s2291645002.html) |
+|2 | L298 Motor Contoller| 1 | [link](https://www.daraz.com.np/products/l298-motor-driver-module-i29709-s92695.html) |
+|3 | Motors and Wheels| 1 set | [link](https://www.daraz.com.np/products/dual-shaft-bo-motor-150-rpm-with-wheel-4-wheels-and-4-gear-motor-i127809502-s1034780469.html) |
+|4 | Battery Holder| 1 | [link](https://www.daraz.com.np/products/black-plastic-1x-2x-3x-4x-18650-battery-storage-box-case-1-2-3-4-slot-way-diy-batteries-clip-holder-container-with-wire-lead-pin-i416807832-s1794727927.html) |
+|5 | 18650 Battery| 3 | [link](https://www.daraz.com.np/products/lc-18650-3000mah-35v-battary-i100852775-s1021404307.html) |
+|6 | Jumper Wires| 1 pack | [link](https://www.daraz.com.np/products/40-pieces-dupont-jumper-wire-cable-male-to-male-two-point-five-four-millimeter-20cm-breadboard-arduino-electronics-prototyping-for-men-i129084254-s1037084718.html) |
+| 7 | On/Off Switch | 1 | [link](https://www.daraz.com.np/products/small-switch-i128943111-s1036882907.html) |
+
+## Hardware Files
+
+The hardware files for the robot are included in this repository.
+
 # How It Works
 The code is pushed to esp32(Which controls the motor driver) with suitable ide and then it is controlled with "Rc bluetooth controller" app from phone.
 # Firmware Build & Flash Instructions
