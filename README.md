@@ -1,5 +1,5 @@
 # Esp32 Robot Car
-This is an simple robotic car made with the help if esp32 and motor driver.
+This is a robotic car which can be remotely controlled from bluetooth with the help of mobile phone . It is primarily powered by esp32 and L298N (or L293D) motor controller that supports all the basic movements such as backward, foreward, left/right and basic speed control.
 ## Car Image
 
 ### Front View
